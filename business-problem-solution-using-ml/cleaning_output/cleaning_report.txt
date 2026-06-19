@@ -1,0 +1,33 @@
+DATA CLEANING AND BALANCING REPORT
+======================================================================
+
+DATASET CHANGES
+Original shape: (100000, 100)
+Final shape: (65824, 100)
+Rows removed: 34176
+
+MISSING VALUES
+Missing values before: 342969
+Numerical imputed: 147569
+Categorical imputed: 195400
+Missing values after: 0
+
+DUPLICATES
+Duplicates before: 0
+Duplicates removed: 0
+
+OUTLIERS
+Outliers removed: 34176
+Z-score threshold: 3
+
+INFINITE VALUES
+Infinite values before: 0
+Infinite values handled: 0
+
+CATEGORICAL ENCODING
+Categorical columns encoded: 21
+
+CLASS BALANCING
+Balance strategy: SMOTE + undersampling
+Original training samples: 52659
+Balanced training samples: 52986
